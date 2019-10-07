@@ -1,0 +1,45 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F8EE4A;
+}
+
+header {
+  margin: 5%;
+}
+h1, p {
+  color: #135296;
+}
+
+#krabs-square {
+  background-color: #0BAFE0;
+  height: 500px;
+  border-radius: 2%;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.left-section {
+  width: 10%
+  margin: 5%;
+}
+.right-section {
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 5%;
+}
+
+.other-characters {
+  height: 240px;
+  width: 240px;
+  background-color: #0bafe0;
+  border-radius: 2%;
+}
